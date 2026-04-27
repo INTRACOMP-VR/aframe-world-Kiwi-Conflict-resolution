@@ -2,9 +2,20 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>Kiwi-Conflict resolution</title>
+		<base href="https://intracomp-real-time-aframe-web-platform.onrender.com//" />
+		<title>aframe-world-Kiwi-Conflict-resolution</title>
 		<script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
-		<script src="https://unpkg.com/@softeng-761-2025-team-10/aframe-inspector/dist/aframe-inspector.min.js"></script>
+		<!-- <script src="https://unpkg.com/@softeng-761-2025-team-10/aframe-inspector/dist/aframe-inspector.min.js"></script> -->
+		<script src="https://intracomp-real-time-aframe-web-platform.onrender.com//vendor/aframe-inspector/aframe-inspector.js"></script>
+		
+		
 	</head>
-	<body></body>
+	<body>
+		<a-scene>
+			<!-- User entities -->
+			      <a-entity name="Rigged Figure" gltf-model="/vendor/aframe-inspector/assets/gltf/rigged_figure.glb" position="0 1 -3" rotation="0 0 0" scale="" id="A-ENTITY-5"></a-entity>
+			<a-plane id="ground" position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+			<a-sky id="sky" color="#ECECEC"></a-sky>
+		</a-scene>
+	</body>
 </html>
